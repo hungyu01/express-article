@@ -38,4 +38,4 @@ ehthumbs.db
 Thumbs.db 
 
 # for backup
-./app.js.backup
+app.js.backup
