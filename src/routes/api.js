@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-// API 版本資訊
+// API information
 router.get('/', (req, res) => {
     res.json({
         message: 'API v1.0.0',
@@ -12,18 +12,18 @@ router.get('/', (req, res) => {
     });
 });
 
-// 文章相關路由 (未來擴展)
+// articles related routes
 router.get('/articles', (req, res) => {
     res.json({
-        message: 'Articles endpoint - Coming soon',
+        message: 'Articles endpoint',
         status: 'development'
     });
 });
 
-// 使用者相關路由 (未來擴展)
+// users related routes
 router.get('/users', (req, res) => {
     res.json({
-        message: 'Users endpoint - Coming soon',
+        message: 'Users endpoint',
         status: 'development'
     });
 });
