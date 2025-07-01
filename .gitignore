@@ -36,3 +36,6 @@ node_modules/
 .Trashes
 ehthumbs.db
 Thumbs.db 
+
+# for backup
+./app.js.backup
